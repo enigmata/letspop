@@ -14,8 +14,8 @@ struct PersistenceController {
         let result = PersistenceController(inMemory: true)
         let viewContext = result.container.viewContext
         for _ in 0..<10 {
-            let newTodo = Todo(context: viewContext)
-            newTodo.startTime = Date()
+            let newTsk = Tsk(context: viewContext)
+            newTsk.startTime = Date()
         }
         do {
             try viewContext.save()

@@ -12,9 +12,9 @@ struct ContentView: View {
     @Environment(\.managedObjectContext) private var viewContext
 
     @FetchRequest(
-        sortDescriptors: [NSSortDescriptor(keyPath: \Todo.startTime, ascending: true)],
+        sortDescriptors: [NSSortDescriptor(keyPath: \Tsk.startTime, ascending: true)],
         animation: .default)
-    private var items: FetchedResults<Todo>
+    private var items: FetchedResults<Tsk>
 
     var body: some View {
         NavigationView {
@@ -46,7 +46,7 @@ struct ContentView: View {
 
     private func addItem() {
         withAnimation {
-            let newTodo = Todo(context: viewContext)
+            let newTodo = Tsk(context: viewContext)
             newTodo.startTime = Date()
 
             do {
