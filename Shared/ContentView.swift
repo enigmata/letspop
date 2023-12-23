@@ -14,19 +14,19 @@ struct ContentView: View {
     @FetchRequest(
         sortDescriptors: [NSSortDescriptor(keyPath: \Popper.getPopping, ascending: true)],
         animation: .default)
-    private var items: FetchedResults<Popper>
+    private var pops: FetchedResults<Popper>
 
     var body: some View {
         NavigationView {
             List {
-                ForEach(items) { item in
+                ForEach(pops) { pop in
                     NavigationLink {
-                        Text("Item at \(item.getPopping!, formatter: itemFormatter)")
+                        Text("Pop at \(pop.getPopping!, formatter: popFormatter)")
                     } label: {
-                        Text(item.getPopping!, formatter: itemFormatter)
+                        Text(pop.getPopping!, formatter: popFormatter)
                     }
                 }
-                .onDelete(perform: deleteItems)
+                .onDelete(perform: deletePop)
             }
             .toolbar {
 #if os(iOS)
@@ -35,16 +35,16 @@ struct ContentView: View {
                 }
 #endif
                 ToolbarItem {
-                    Button(action: addItem) {
-                        Label("Add Item", systemImage: "plus")
+                    Button(action: addPop) {
+                        Label("Add Pop", systemImage: "plus")
                     }
                 }
             }
-            Text("Select an item")
+            Text("Select an pop")
         }
     }
 
-    private func addItem() {
+    private func addPop() {
         withAnimation {
             let newPop = Popper(context: viewContext)
             newPop.getPopping = Date()
@@ -60,9 +60,9 @@ struct ContentView: View {
         }
     }
 
-    private func deleteItems(offsets: IndexSet) {
+    private func deletePop(offsets: IndexSet) {
         withAnimation {
-            offsets.map { items[$0] }.forEach(viewContext.delete)
+            offsets.map { pops[$0] }.forEach(viewContext.delete)
 
             do {
                 try viewContext.save()
@@ -76,7 +76,7 @@ struct ContentView: View {
     }
 }
 
-private let itemFormatter: DateFormatter = {
+private let popFormatter: DateFormatter = {
     let formatter = DateFormatter()
     formatter.dateStyle = .short
     formatter.timeStyle = .medium
