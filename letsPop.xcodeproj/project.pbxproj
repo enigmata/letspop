@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		253099142B365134003F976F /* Popper+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253099122B365134003F976F /* Popper+CoreDataClass.swift */; };
+		253099152B365134003F976F /* Popper+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253099132B365134003F976F /* Popper+CoreDataProperties.swift */; };
 		2554AFFB2B1A3C510034A6BA /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2554AFFA2B1A3C510034A6BA /* Tests_iOS.swift */; };
 		2554AFFD2B1A3C510034A6BA /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2554AFFC2B1A3C510034A6BA /* Tests_iOSLaunchTests.swift */; };
 		2554B0072B1A3C510034A6BA /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2554B0062B1A3C510034A6BA /* Tests_macOS.swift */; };
 		2554B0092B1A3C510034A6BA /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2554B0082B1A3C510034A6BA /* Tests_macOSLaunchTests.swift */; };
-		2554B00A2B1A3C510034A6BA /* letsgo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2554AFDF2B1A3C4F0034A6BA /* letsgo.xcdatamodeld */; };
-		2554B00B2B1A3C510034A6BA /* letsgo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2554AFDF2B1A3C4F0034A6BA /* letsgo.xcdatamodeld */; };
-		2554B00C2B1A3C510034A6BA /* letsgoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2554AFE12B1A3C4F0034A6BA /* letsgoApp.swift */; };
-		2554B00D2B1A3C510034A6BA /* letsgoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2554AFE12B1A3C4F0034A6BA /* letsgoApp.swift */; };
+		2554B00A2B1A3C510034A6BA /* letsPop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2554AFDF2B1A3C4F0034A6BA /* letsPop.xcdatamodeld */; };
+		2554B00B2B1A3C510034A6BA /* letsPop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2554AFDF2B1A3C4F0034A6BA /* letsPop.xcdatamodeld */; };
+		2554B00C2B1A3C510034A6BA /* letsPopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2554AFE12B1A3C4F0034A6BA /* letsPopApp.swift */; };
+		2554B00D2B1A3C510034A6BA /* letsPopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2554AFE12B1A3C4F0034A6BA /* letsPopApp.swift */; };
 		2554B00E2B1A3C510034A6BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2554AFE22B1A3C4F0034A6BA /* ContentView.swift */; };
 		2554B00F2B1A3C510034A6BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2554AFE22B1A3C4F0034A6BA /* ContentView.swift */; };
 		2554B0102B1A3C510034A6BA /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2554AFE32B1A3C4F0034A6BA /* Persistence.swift */; };
 		2554B0112B1A3C510034A6BA /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2554AFE32B1A3C4F0034A6BA /* Persistence.swift */; };
 		2554B0122B1A3C510034A6BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2554AFE42B1A3C510034A6BA /* Assets.xcassets */; };
 		2554B0132B1A3C510034A6BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2554AFE42B1A3C510034A6BA /* Assets.xcassets */; };
-		2580D2752B34FF2500594038 /* Tsk+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2580D2732B34FF2500594038 /* Tsk+CoreDataClass.swift */; };
-		2580D2762B34FF2500594038 /* Tsk+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2580D2742B34FF2500594038 /* Tsk+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,13 +43,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		253099122B365134003F976F /* Popper+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Popper+CoreDataClass.swift"; path = "Shared/Popper+CoreDataClass.swift"; sourceTree = "<group>"; };
+		253099132B365134003F976F /* Popper+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Popper+CoreDataProperties.swift"; path = "Shared/Popper+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		2554AFE02B1A3C4F0034A6BA /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
-		2554AFE12B1A3C4F0034A6BA /* letsgoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = letsgoApp.swift; sourceTree = "<group>"; };
+		2554AFE12B1A3C4F0034A6BA /* letsPopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = letsPopApp.swift; sourceTree = "<group>"; };
 		2554AFE22B1A3C4F0034A6BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2554AFE32B1A3C4F0034A6BA /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		2554AFE42B1A3C510034A6BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2554AFE92B1A3C510034A6BA /* letsgo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = letsgo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2554AFEF2B1A3C510034A6BA /* letsgo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = letsgo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2554AFE92B1A3C510034A6BA /* letsPop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = letsPop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2554AFEF2B1A3C510034A6BA /* letsPop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = letsPop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2554AFF12B1A3C510034A6BA /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		2554AFF62B1A3C510034A6BA /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2554AFFA2B1A3C510034A6BA /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
@@ -57,8 +59,6 @@
 		2554B0022B1A3C510034A6BA /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2554B0062B1A3C510034A6BA /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		2554B0082B1A3C510034A6BA /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
-		2580D2732B34FF2500594038 /* Tsk+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Tsk+CoreDataClass.swift"; path = "Shared/Tsk+CoreDataClass.swift"; sourceTree = "<group>"; };
-		2580D2742B34FF2500594038 /* Tsk+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Tsk+CoreDataProperties.swift"; path = "Shared/Tsk+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +96,8 @@
 		2554AFD92B1A3C4F0034A6BA = {
 			isa = PBXGroup;
 			children = (
-				2580D2732B34FF2500594038 /* Tsk+CoreDataClass.swift */,
-				2580D2742B34FF2500594038 /* Tsk+CoreDataProperties.swift */,
+				253099122B365134003F976F /* Popper+CoreDataClass.swift */,
+				253099132B365134003F976F /* Popper+CoreDataProperties.swift */,
 				2554AFDE2B1A3C4F0034A6BA /* Shared */,
 				2554AFF02B1A3C510034A6BA /* macOS */,
 				2554AFF92B1A3C510034A6BA /* Tests iOS */,
@@ -109,11 +109,11 @@
 		2554AFDE2B1A3C4F0034A6BA /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				2554AFE12B1A3C4F0034A6BA /* letsgoApp.swift */,
+				2554AFE12B1A3C4F0034A6BA /* letsPopApp.swift */,
 				2554AFE22B1A3C4F0034A6BA /* ContentView.swift */,
 				2554AFE32B1A3C4F0034A6BA /* Persistence.swift */,
 				2554AFE42B1A3C510034A6BA /* Assets.xcassets */,
-				2554AFDF2B1A3C4F0034A6BA /* letsgo.xcdatamodeld */,
+				2554AFDF2B1A3C4F0034A6BA /* letsPop.xcdatamodeld */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -121,8 +121,8 @@
 		2554AFEA2B1A3C510034A6BA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2554AFE92B1A3C510034A6BA /* letsgo.app */,
-				2554AFEF2B1A3C510034A6BA /* letsgo.app */,
+				2554AFE92B1A3C510034A6BA /* letsPop.app */,
+				2554AFEF2B1A3C510034A6BA /* letsPop.app */,
 				2554AFF62B1A3C510034A6BA /* Tests iOS.xctest */,
 				2554B0022B1A3C510034A6BA /* Tests macOS.xctest */,
 			);
@@ -158,9 +158,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2554AFE82B1A3C510034A6BA /* letsgo (iOS) */ = {
+		2554AFE82B1A3C510034A6BA /* letsPop (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2554B0162B1A3C510034A6BA /* Build configuration list for PBXNativeTarget "letsgo (iOS)" */;
+			buildConfigurationList = 2554B0162B1A3C510034A6BA /* Build configuration list for PBXNativeTarget "letsPop (iOS)" */;
 			buildPhases = (
 				2554AFE52B1A3C510034A6BA /* Sources */,
 				2554AFE62B1A3C510034A6BA /* Frameworks */,
@@ -170,14 +170,14 @@
 			);
 			dependencies = (
 			);
-			name = "letsgo (iOS)";
+			name = "letsPop (iOS)";
 			productName = "letsgo (iOS)";
-			productReference = 2554AFE92B1A3C510034A6BA /* letsgo.app */;
+			productReference = 2554AFE92B1A3C510034A6BA /* letsPop.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2554AFEE2B1A3C510034A6BA /* letsgo (macOS) */ = {
+		2554AFEE2B1A3C510034A6BA /* letsPop (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2554B0192B1A3C510034A6BA /* Build configuration list for PBXNativeTarget "letsgo (macOS)" */;
+			buildConfigurationList = 2554B0192B1A3C510034A6BA /* Build configuration list for PBXNativeTarget "letsPop (macOS)" */;
 			buildPhases = (
 				2554AFEB2B1A3C510034A6BA /* Sources */,
 				2554AFEC2B1A3C510034A6BA /* Frameworks */,
@@ -187,9 +187,9 @@
 			);
 			dependencies = (
 			);
-			name = "letsgo (macOS)";
+			name = "letsPop (macOS)";
 			productName = "letsgo (macOS)";
-			productReference = 2554AFEF2B1A3C510034A6BA /* letsgo.app */;
+			productReference = 2554AFEF2B1A3C510034A6BA /* letsPop.app */;
 			productType = "com.apple.product-type.application";
 		};
 		2554AFF52B1A3C510034A6BA /* Tests iOS */ = {
@@ -254,7 +254,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2554AFDD2B1A3C4F0034A6BA /* Build configuration list for PBXProject "letsgo" */;
+			buildConfigurationList = 2554AFDD2B1A3C4F0034A6BA /* Build configuration list for PBXProject "letsPop" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -267,8 +267,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2554AFE82B1A3C510034A6BA /* letsgo (iOS) */,
-				2554AFEE2B1A3C510034A6BA /* letsgo (macOS) */,
+				2554AFE82B1A3C510034A6BA /* letsPop (iOS) */,
+				2554AFEE2B1A3C510034A6BA /* letsPop (macOS) */,
 				2554AFF52B1A3C510034A6BA /* Tests iOS */,
 				2554B0012B1A3C510034A6BA /* Tests macOS */,
 			);
@@ -313,11 +313,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2554B00A2B1A3C510034A6BA /* letsgo.xcdatamodeld in Sources */,
+				2554B00A2B1A3C510034A6BA /* letsPop.xcdatamodeld in Sources */,
+				253099142B365134003F976F /* Popper+CoreDataClass.swift in Sources */,
 				2554B0102B1A3C510034A6BA /* Persistence.swift in Sources */,
-				2554B00C2B1A3C510034A6BA /* letsgoApp.swift in Sources */,
-				2580D2762B34FF2500594038 /* Tsk+CoreDataProperties.swift in Sources */,
-				2580D2752B34FF2500594038 /* Tsk+CoreDataClass.swift in Sources */,
+				253099152B365134003F976F /* Popper+CoreDataProperties.swift in Sources */,
+				2554B00C2B1A3C510034A6BA /* letsPopApp.swift in Sources */,
 				2554B00E2B1A3C510034A6BA /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -326,9 +326,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2554B00B2B1A3C510034A6BA /* letsgo.xcdatamodeld in Sources */,
+				2554B00B2B1A3C510034A6BA /* letsPop.xcdatamodeld in Sources */,
 				2554B0112B1A3C510034A6BA /* Persistence.swift in Sources */,
-				2554B00D2B1A3C510034A6BA /* letsgoApp.swift in Sources */,
+				2554B00D2B1A3C510034A6BA /* letsPopApp.swift in Sources */,
 				2554B00F2B1A3C510034A6BA /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,12 +356,12 @@
 /* Begin PBXTargetDependency section */
 		2554AFF82B1A3C510034A6BA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2554AFE82B1A3C510034A6BA /* letsgo (iOS) */;
+			target = 2554AFE82B1A3C510034A6BA /* letsPop (iOS) */;
 			targetProxy = 2554AFF72B1A3C510034A6BA /* PBXContainerItemProxy */;
 		};
 		2554B0042B1A3C510034A6BA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2554AFEE2B1A3C510034A6BA /* letsgo (macOS) */;
+			target = 2554AFEE2B1A3C510034A6BA /* letsPop (macOS) */;
 			targetProxy = 2554B0032B1A3C510034A6BA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -500,7 +500,7 @@
 				);
 				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.enigmata.letsgo;
-				PRODUCT_NAME = letsgo;
+				PRODUCT_NAME = letsPop;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -530,7 +530,7 @@
 				);
 				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.enigmata.letsgo;
-				PRODUCT_NAME = letsgo;
+				PRODUCT_NAME = letsPop;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -560,7 +560,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 11.7;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.enigmata.letsgo;
-				PRODUCT_NAME = letsgo;
+				PRODUCT_NAME = letsPop;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -588,7 +588,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 11.7;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.enigmata.letsgo;
-				PRODUCT_NAME = letsgo;
+				PRODUCT_NAME = letsPop;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -677,7 +677,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2554AFDD2B1A3C4F0034A6BA /* Build configuration list for PBXProject "letsgo" */ = {
+		2554AFDD2B1A3C4F0034A6BA /* Build configuration list for PBXProject "letsPop" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2554B0142B1A3C510034A6BA /* Debug */,
@@ -686,7 +686,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2554B0162B1A3C510034A6BA /* Build configuration list for PBXNativeTarget "letsgo (iOS)" */ = {
+		2554B0162B1A3C510034A6BA /* Build configuration list for PBXNativeTarget "letsPop (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2554B0172B1A3C510034A6BA /* Debug */,
@@ -695,7 +695,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2554B0192B1A3C510034A6BA /* Build configuration list for PBXNativeTarget "letsgo (macOS)" */ = {
+		2554B0192B1A3C510034A6BA /* Build configuration list for PBXNativeTarget "letsPop (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2554B01A2B1A3C510034A6BA /* Debug */,
@@ -725,13 +725,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		2554AFDF2B1A3C4F0034A6BA /* letsgo.xcdatamodeld */ = {
+		2554AFDF2B1A3C4F0034A6BA /* letsPop.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				2554AFE02B1A3C4F0034A6BA /* Shared.xcdatamodel */,
 			);
 			currentVersion = 2554AFE02B1A3C4F0034A6BA /* Shared.xcdatamodel */;
-			path = letsgo.xcdatamodeld;
+			path = letsPop.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

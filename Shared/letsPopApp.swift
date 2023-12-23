@@ -1,5 +1,5 @@
 //
-//  letsgoApp.swift
+//  letsPopApp.swift
 //  Shared
 //
 //  Created by Randy Horman on 2023-12-01.
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct letsgoApp: App {
+struct letsPopApp: App {
     let persistenceController = PersistenceController.shared
 
     var body: some Scene {

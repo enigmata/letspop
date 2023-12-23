@@ -14,8 +14,8 @@ struct PersistenceController {
         let result = PersistenceController(inMemory: true)
         let viewContext = result.container.viewContext
         for _ in 0..<10 {
-            let newTsk = Tsk(context: viewContext)
-            newTsk.startTime = Date()
+            let pop = Popper(context: viewContext)
+            pop.getPopping = Date()
         }
         do {
             try viewContext.save()

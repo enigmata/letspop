@@ -12,18 +12,18 @@ struct ContentView: View {
     @Environment(\.managedObjectContext) private var viewContext
 
     @FetchRequest(
-        sortDescriptors: [NSSortDescriptor(keyPath: \Tsk.startTime, ascending: true)],
+        sortDescriptors: [NSSortDescriptor(keyPath: \Popper.getPopping, ascending: true)],
         animation: .default)
-    private var items: FetchedResults<Tsk>
+    private var items: FetchedResults<Popper>
 
     var body: some View {
         NavigationView {
             List {
                 ForEach(items) { item in
                     NavigationLink {
-                        Text("Item at \(item.startTime!, formatter: itemFormatter)")
+                        Text("Item at \(item.getPopping!, formatter: itemFormatter)")
                     } label: {
-                        Text(item.startTime!, formatter: itemFormatter)
+                        Text(item.getPopping!, formatter: itemFormatter)
                     }
                 }
                 .onDelete(perform: deleteItems)
@@ -46,8 +46,8 @@ struct ContentView: View {
 
     private func addItem() {
         withAnimation {
-            let newTodo = Tsk(context: viewContext)
-            newTodo.startTime = Date()
+            let newPop = Popper(context: viewContext)
+            newPop.getPopping = Date()
 
             do {
                 try viewContext.save()
@@ -87,7 +87,7 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
             
-            ContentView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
+            ContentView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext).previewInterfaceOrientation(.landscapeLeft)
         }
     }
 }
