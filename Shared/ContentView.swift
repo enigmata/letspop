@@ -87,7 +87,7 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
             
-            ContentView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext).previewInterfaceOrientation(.landscapeLeft)
+            ContentView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext).previewInterfaceOrientation(.portrait)
         }
     }
 }
